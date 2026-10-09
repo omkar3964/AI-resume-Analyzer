@@ -1,0 +1,65 @@
+2026-10-09 12:49:26 | INFO     | __main__ | [APP] Streamlit application started
+2026-10-09 12:49:37 | INFO     | __main__ | [APP] Streamlit application started
+2026-10-09 12:49:56 | INFO     | __main__ | [APP] Streamlit application started
+2026-10-09 12:49:59 | INFO     | __main__ | [APP] Streamlit application started
+2026-10-09 12:49:59 | INFO     | __main__ | [APP] Analyze Resume button clicked
+2026-10-09 12:49:59 | INFO     | __main__ | [APP] Input validation passed; file=omkar_malbhare_sd_1 (3).pdf; JD length=240
+2026-10-09 12:49:59 | INFO     | __main__ | [EXTRACTION] Started for file: omkar_malbhare_sd_1 (3).pdf
+2026-10-09 12:49:59 | INFO     | __main__ | [EXTRACTION] Reading PDF pages
+2026-10-09 12:49:59 | INFO     | __main__ | [EXTRACTION] Extracting PDF page 1 of 1
+2026-10-09 12:49:59 | INFO     | __main__ | [EXTRACTION] Completed in 0.16 seconds; extracted 2532 characters
+2026-10-09 12:49:59 | INFO     | __main__ | [APP] Starting analysis pipeline
+2026-10-09 12:49:59 | INFO     | __main__ | [ANALYSIS] Preparing structured analysis prompt
+2026-10-09 12:49:59 | INFO     | __main__ | [ANALYSIS] Request started
+2026-10-09 12:49:59 | INFO     | __main__ | [ANALYSIS] Model: llama3.2:3b
+2026-10-09 12:49:59 | INFO     | __main__ | [ANALYSIS] Prompt length: 4515 characters
+2026-10-09 12:49:59 | INFO     | __main__ | [ANALYSIS] Endpoint: http://localhost:11434/api/chat
+2026-10-09 12:49:59 | INFO     | __main__ | [ANALYSIS] Sending HTTP request to Ollama
+2026-10-09 12:51:29 | INFO     | __main__ | [ANALYSIS] HTTP response received in 89.44 seconds; status=200
+2026-10-09 12:51:29 | INFO     | __main__ | [ANALYSIS] Model generation completed; total request time: 89.44 seconds
+2026-10-09 12:51:29 | INFO     | __main__ | [ANALYSIS] Ollama total duration: 87.37 seconds
+2026-10-09 12:51:29 | INFO     | __main__ | [ANALYSIS] Model load duration: 4.78 seconds
+2026-10-09 12:51:29 | INFO     | __main__ | [ANALYSIS] Prompt tokens processed: 991
+2026-10-09 12:51:29 | INFO     | __main__ | [ANALYSIS] Response tokens generated: 434
+2026-10-09 12:51:29 | INFO     | __main__ | [ANALYSIS] Generation speed: 7.86 tokens/second
+2026-10-09 12:51:29 | INFO     | __main__ | [ANALYSIS] Request finished successfully
+2026-10-09 12:51:29 | INFO     | __main__ | [ANALYSIS] Parsing structured JSON
+2026-10-09 12:51:29 | INFO     | __main__ | [ANALYSIS] Structured analysis completed successfully
+2026-10-09 12:51:29 | INFO     | __main__ | [APP] First LLM call completed; starting report generation
+2026-10-09 12:51:29 | INFO     | __main__ | [REPORT] Preparing final report prompt
+2026-10-09 12:51:29 | INFO     | __main__ | [REPORT] Request started
+2026-10-09 12:51:29 | INFO     | __main__ | [REPORT] Model: llama3.2:3b
+2026-10-09 12:51:29 | INFO     | __main__ | [REPORT] Prompt length: 3383 characters
+2026-10-09 12:51:29 | INFO     | __main__ | [REPORT] Endpoint: http://localhost:11434/api/chat
+2026-10-09 12:51:29 | INFO     | __main__ | [REPORT] Sending HTTP request to Ollama
+2026-10-09 12:52:20 | INFO     | __main__ | [REPORT] HTTP response received in 51.60 seconds; status=200
+2026-10-09 12:52:20 | INFO     | __main__ | [REPORT] Model generation completed; total request time: 51.60 seconds
+2026-10-09 12:52:20 | INFO     | __main__ | [REPORT] Ollama total duration: 49.55 seconds
+2026-10-09 12:52:20 | INFO     | __main__ | [REPORT] Model load duration: 0.03 seconds
+2026-10-09 12:52:20 | INFO     | __main__ | [REPORT] Prompt tokens processed: 812
+2026-10-09 12:52:20 | INFO     | __main__ | [REPORT] Response tokens generated: 227
+2026-10-09 12:52:20 | INFO     | __main__ | [REPORT] Generation speed: 8.54 tokens/second
+2026-10-09 12:52:20 | INFO     | __main__ | [REPORT] Request finished successfully
+2026-10-09 12:52:20 | INFO     | __main__ | [REPORT] Parsing final report JSON
+2026-10-09 12:52:20 | INFO     | __main__ | [REPORT] Final report generated successfully
+2026-10-09 12:52:20 | INFO     | __main__ | [APP] Both LLM calls completed successfully
+2026-10-09 12:52:20 | INFO     | __main__ | [APP] Entire analysis pipeline completed in 141.23 seconds
+2026-10-09 12:52:20 | INFO     | __main__ | [UI] Displaying analysis results
+2026-10-09 12:52:20 | INFO     | __main__ | [UI] Displaying section: strengths
+2026-10-09 12:52:20 | INFO     | __main__ | [UI] Displaying section: gaps
+2026-10-09 12:52:20 | INFO     | __main__ | [UI] Displaying section: missing_or_weak_skills
+2026-10-09 12:52:20 | INFO     | __main__ | [UI] Displaying section: improvement_suggestions
+2026-10-09 12:52:20 | INFO     | __main__ | [UI] Displaying section: overall_summary
+2026-10-09 12:52:21 | INFO     | __main__ | [DOWNLOAD] Preparing Markdown report
+2026-10-09 12:52:21 | INFO     | __main__ | [DOWNLOAD] Markdown report prepared; 1076 characters
+2026-10-09 12:52:21 | INFO     | __main__ | [UI] Report display completed
+2026-10-09 12:52:40 | INFO     | __main__ | [APP] Streamlit application started
+2026-10-09 12:52:40 | INFO     | __main__ | [UI] Displaying analysis results
+2026-10-09 12:52:40 | INFO     | __main__ | [UI] Displaying section: strengths
+2026-10-09 12:52:40 | INFO     | __main__ | [UI] Displaying section: gaps
+2026-10-09 12:52:40 | INFO     | __main__ | [UI] Displaying section: missing_or_weak_skills
+2026-10-09 12:52:40 | INFO     | __main__ | [UI] Displaying section: improvement_suggestions
+2026-10-09 12:52:40 | INFO     | __main__ | [UI] Displaying section: overall_summary
+2026-10-09 12:52:40 | INFO     | __main__ | [DOWNLOAD] Preparing Markdown report
+2026-10-09 12:52:40 | INFO     | __main__ | [DOWNLOAD] Markdown report prepared; 1076 characters
+2026-10-09 12:52:40 | INFO     | __main__ | [UI] Report display completed
